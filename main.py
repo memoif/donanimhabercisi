@@ -15,9 +15,9 @@ def run():
     async def on_ready():
         print("Bot hazır.")
         await bot.load_extension("bot")
-    load_dotenv()
+    load_dotenv("token.env")
     if os.environ["BOT_TOKEN"]=="":
-        print("Lütfen bot tokeninizi .env dosyasına giriniz!")
+        print("Lütfen bot tokeninizi token.env dosyasına giriniz!")
         exit()
     bot.run(os.environ["BOT_TOKEN"])
 

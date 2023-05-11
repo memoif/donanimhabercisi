@@ -4,7 +4,7 @@ DonanımHabercisi, ayarladığınız altforumlarda yeni konu açıldığında Di
 Bu botu çalıştırabilmek için Python 3.9 ve üst sürümleri ve birkaç paketin kurulu olması gerekir. Gereken paketleri kurmak için terminalinize aşağıdaki ifadeyi girin.
 >```console
 >pip install -r requirements.txt
-Girdikten sonra .env dosyasında **BOT_TOKEN** ifadesine karşılık gelen kısma Discord botunuzun tokenini girin, daha sonrasında terminale aşağıdakileri girerek botu çalıştırın.
+Girdikten sonra token.env dosyasında **BOT_TOKEN** ifadesine karşılık gelen kısma Discord botunuzun tokenini girin, daha sonrasında terminale aşağıdakileri girerek botu çalıştırın.
 >```
 >python main.py
 
